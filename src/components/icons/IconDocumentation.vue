@@ -5,3 +5,7 @@
     />
   </svg>
 </template>
+
+<script setup>
+  // Composition API can be used here for props, etc. if needed.
+</script>
