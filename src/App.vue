@@ -1,26 +1,31 @@
 <template>
   <div>
-      <!-- Nav bar -->
-      <nav class="navbar navbar-expand navbar-light bg-light">
-        <div class="container">
-          <a class="navbar-brand float-left" href="/">CIS 4339 Midterm</a>
-          <ul class="nav navbar-nav mr-auto" >
-            <li class="nav-item">
-              <RouterLink class="nav-link" to="/">Home</RouterLink>
-            </li>
-            <li class="nav-item">
-              <RouterLink class="nav-link" to="/form">Form</RouterLink>
-            </li>
-          </ul>
-        </div>
-      </nav>
-  
-   <!-- Router view -->
-      <div class="container mt-5">
-        <RouterView />
+    <!-- Nav bar -->
+    <nav class="navbar navbar-expand navbar-light bg-light">
+      <div class="container">
+        <a class="navbar-brand float-left" href="/">CIS 4339 Midterm</a>
+        <ul class="nav navbar-nav mr-auto">
+          <li class="nav-item">
+            <RouterLink class="nav-link" to="/">Home</RouterLink>
+          </li>
+          <li class="nav-item">
+            <RouterLink class="nav-link" to="/form">Form</RouterLink>
+          </li>
+        </ul>
       </div>
+    </nav>
+
+    <!-- Router view -->
+    <div class="container mt-5">
+      <RouterView />
     </div>
-  </template>
+  </div>
+</template>
+
+<script setup>
+// No data, computed properties, or methods are needed in this component, 
+// but you could import any necessary modules here if needed.
+</script>
 
 <style scoped>
 header {
@@ -79,7 +84,6 @@ nav a:first-of-type {
     text-align: left;
     margin-left: -1rem;
     font-size: 1rem;
-
     padding: 1rem 0;
     margin-top: 1rem;
   }
