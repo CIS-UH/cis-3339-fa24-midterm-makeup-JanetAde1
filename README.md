@@ -29,3 +29,6 @@ npm run build
 ```
 #### Required libraries 
 npm install axios bootstrap vue-chartjs chart.js
+
+<!--OpenAI. (2024). ChatGPT. [Question/Prompt: "Can you help me migrate my Vue.js code from the Options API to the Composition API?"] -->
+
